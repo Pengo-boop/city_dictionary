@@ -1,1 +1,20 @@
-h1 {color: goldenrod;}
+h1 {
+    color: goldenrod; 
+    font-size: 40px;
+}
+p {
+    font-size: 25px;
+} 
+body {
+    background-color: pink;
+}
+.menu {
+    background-color: lightpink;
+    width: 20%;
+    height: 100%;
+    position: absolute;
+}
+.main {
+    width:80%;
+    margin-left: 20%;
+}
