@@ -1,30 +1,7 @@
-{%load static%}
-<!DOCTYPE html> 
-
-<html lang="en"> 
-
-<head>
-    <link rel="stylesheet" href="{% static 'css/style.css' %}" type="text/css">
-
-    <title>City dictionary</title>
-
-</head> 
-
-<body> 
-
-    <div class="menu"> 
-        <ol> {% for city in cities %}
-            <li><a href="">{{ city }} </1> </li>
-                {%endfor %}
-            </ol>
-<h2>List of Cities</h2>
-    </div> 
-
-    <div class="main"> 
-        <h1>City Dictionary</h1>
-        <p> On this site you can see a small summary of the towns of the world. </p>
-    </div>
-
-</body>
-
-</html>
+{%extends 'base.html'%}
+{%block content%}
+<p> On this site you can see a short summary of the cities of the world. </p>
+{%endblock%}
+{%block title%}
+City Dictionary
+{%endblock%}
