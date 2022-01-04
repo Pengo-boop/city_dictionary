@@ -9,12 +9,14 @@ body {
     background-color: pink;
 }
 .menu {
-    background-color: lightpink;
-    width: 20%;
+    background-color: white;
+    width: 15%;
     height: 100%;
     position: absolute;
+    padding: 3%;
 }
 .main {
     width:80%;
-    margin-left: 20%;
+    margin-left: 25%;
+    padding: 3%;
 }
