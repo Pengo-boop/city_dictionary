@@ -22,7 +22,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', main),
     path('moscow', main, name='Moscow'),
-    path('Saint-Petersburg', main, name='Saint Petersburg'),
+    path('Saint Petersburg', main, name='Saint Petersburg'),
     path('toronto', main, name='Toronto'),
     path('vancouver', main, name='Vancouver'),
     
