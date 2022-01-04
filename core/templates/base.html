@@ -15,7 +15,7 @@
     <div class="menu"> 
         <h2>List of Cities</h2>
         <ol> {% for city in cities %}
-            <li><a href="">{{ city }} </1> </li>
+            <li><a href="{% url city %}"> {{city}} </a> </li>
                 {%endfor %}
             </ol>
     </div> 

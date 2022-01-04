@@ -17,7 +17,14 @@ from django.contrib import admin
 from django.urls import path
 from core.views import main
 
+
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', main),
+    path('moscow', main, name='Moscow'),
+    path('Saint-Petersburg', main, name='Saint Petersburg'),
+    path('toronto', main, name='Toronto'),
+    path('vancouver', main, name='Vancouver'),
+    
+
 ]
